@@ -1,0 +1,44 @@
+[
+  {
+    "test_id": "REAL_TC1_CRITICAL_ATTACK",
+    "dataset": "UNSW-NB15",
+    "raw_label": "DoS",
+    "is_attack": 1,
+    "description": "Highest-volume real DDoS\/DoS\/Malware flow from loaded datasets",
+    "flow_duration_seconds": 57.237827,
+    "src_packets": 1642.0,
+    "dst_packets": 11018.0,
+    "src_bytes": 70700.0,
+    "dst_bytes": 14657531.0,
+    "src_mean_packet_bytes": 43.0,
+    "dst_mean_packet_bytes": 1330.0
+  },
+  {
+    "test_id": "SYNTH_TC2_DECEPTIVE_BENIGN",
+    "dataset": "SYNTHETIC",
+    "raw_label": "BENIGN (High-Throughput Burst)",
+    "is_attack": 0,
+    "description": "Looks like a volumetric flood on byte\/packet rate, but has healthy TCP ACK ratio & MTU payloads",
+    "flow_duration_seconds": 0.6,
+    "src_packets": 900.0,
+    "dst_packets": 1200.0,
+    "src_bytes": 57600.0,
+    "dst_bytes": 1704000.0,
+    "src_mean_packet_bytes": 64.0,
+    "dst_mean_packet_bytes": 1420.0
+  },
+  {
+    "test_id": "REAL_TC2_DECEPTIVE_BENIGN",
+    "dataset": "CIC-IDS2017",
+    "raw_label": "BENIGN",
+    "is_attack": 0,
+    "description": "Highest-throughput short-burst benign flow (False-Positive Trap)",
+    "flow_duration_seconds": 4.592907,
+    "src_packets": 9449.0,
+    "dst_packets": 10063.0,
+    "src_bytes": 37759.0,
+    "dst_bytes": 23400903.0,
+    "src_mean_packet_bytes": 3.9960842417,
+    "dst_mean_packet_bytes": 2325.4400278247
+  }
+]

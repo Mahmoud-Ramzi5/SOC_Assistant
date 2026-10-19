@@ -1,0 +1,4 @@
+test_id,dataset,raw_label,is_attack,description,flow_duration_seconds,src_packets,dst_packets,src_bytes,dst_bytes,src_mean_packet_bytes,dst_mean_packet_bytes
+REAL_TC1_CRITICAL_ATTACK,UNSW-NB15,DoS,1,Highest-volume real DDoS/DoS/Malware flow from loaded datasets,57.237827,1642.0,11018.0,70700.0,14657531.0,43.0,1330.0
+SYNTH_TC2_DECEPTIVE_BENIGN,SYNTHETIC,BENIGN (High-Throughput Burst),0,"Looks like a volumetric flood on byte/packet rate, but has healthy TCP ACK ratio & MTU payloads",0.6,900.0,1200.0,57600.0,1704000.0,64.0,1420.0
+REAL_TC2_DECEPTIVE_BENIGN,CIC-IDS2017,BENIGN,0,Highest-throughput short-burst benign flow (False-Positive Trap),4.592907,9449.0,10063.0,37759.0,23400903.0,3.9960842417,2325.4400278247
